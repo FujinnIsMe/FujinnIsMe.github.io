@@ -24,7 +24,7 @@ halaman artikel
           {{ post.content | strip_html | truncatewords: 30 }}
         {% endif %}
       </p>
-      <p>categories: {{  post.category }}</p>
+      <p>categories: {{  post.categories }}</p>
     </article>
   </li>
 {% endfor %}
